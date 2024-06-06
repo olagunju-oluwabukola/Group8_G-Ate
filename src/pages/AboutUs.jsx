@@ -3,11 +3,9 @@
 const AboutUs = () => {
   return (
     <div>
-    <h1 >About us</h1>
+    <h1 className="text-5xl font-bold underline">About us</h1>
 
-    <p>
-       
-    </p>
+    <p></p>
     </div>
   )
 }
