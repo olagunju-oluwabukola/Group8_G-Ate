@@ -40,8 +40,10 @@ const Rootlayout = () => {
     </nav>
 
     <div className='flex-row-3'>
-    <FontAwesomeIcon icon={faCartArrowDown} />
-    <FontAwesomeIcon icon={faSearch} />
+      <p> <FontAwesomeIcon icon={faSearch}/> </p>
+
+      <p> <FontAwesomeIcon icon={faCartArrowDown}/> </p>
+   
     <button>Sign Up</button>
     </div>
 </header>
