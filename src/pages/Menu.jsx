@@ -1,11 +1,10 @@
+import FoodDisplay from "../Components/FoodDisplay/FoodDisplay"
 
 
 const Menu = () => {
   return (
     <div>
-    <h1>Menu</h1>
-
-    <p> </p>
+    <FoodDisplay />
     
     </div>
   )
