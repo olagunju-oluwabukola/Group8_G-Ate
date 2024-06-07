@@ -8,6 +8,12 @@ import Snoek_Pâté from "./Snoek_Pâté.png";
 import tagine from "./tagine.png";
 import Waakye from "./Waakye.png";
 
+import rating_starts from "./rating_starts.png"
+
+export  const assets = {
+    rating_starts,
+} 
+
 export const food_list = [
     {
         _id: "1",

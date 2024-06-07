@@ -1,11 +1,13 @@
 import React from "react";
 import "./FoodDisplay.css";
 import { food_list } from "../../assets/assets";
+import {assets} from '../../assets/assets'
 
 function FoodDisplay() {
   return (
     <div className="food-display">
       <h2>Menu</h2>
+      <div className='food-item'>
       <div className="food-display-list">
         {food_list.map((item, index) => {
           // if (category === "All" || category === item.category) {
@@ -19,7 +21,7 @@ function FoodDisplay() {
         <p className="food-item-description">{item.description}</p>
         <div className="food-item-name-rating">
           <p className="food-item-price">${item.price}</p>
-          {/* <img src={assets.rating_starts} alt="" /> */}
+          <img src={assets.rating_starts} alt="" />
         </div>
         </div>
 
@@ -28,6 +30,7 @@ function FoodDisplay() {
           // }
         })}
       </div>
+    </div>
     </div>
   );
 }
