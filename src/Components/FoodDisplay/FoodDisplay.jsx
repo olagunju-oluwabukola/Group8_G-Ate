@@ -21,7 +21,7 @@ function FoodDisplay() {
         <p className="food-item-description">{item.description}</p>
         <div className="food-item-name-rating">
           <p className="food-item-price">${item.price}</p>
-          <img src={assets.rating_starts} alt="" />
+          <span><img src={assets.rating_starts} alt="" /> 5.0</span>
         </div>
         </div>
 
