@@ -9,11 +9,10 @@ import Home from './pages/Home'
  import Menu from './pages/Menu'
  import AboutUs from './pages/AboutUs'
  import Reservation from './pages/Reservation'
+
  import NotFound from './pages/NotFound'
-
-
  import Rootlayout from './Layouts/RootLayout'
-// import Helplayout from './Layouts/Helplayout'
+
 
 function App() {
   const router = 
