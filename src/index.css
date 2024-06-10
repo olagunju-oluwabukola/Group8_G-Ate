@@ -275,6 +275,14 @@ text-align: center;
 color: #3b3838;
 }
 
+.reservationContainer{
+    background-image: url(./assets/Images/reservation_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center; 
+    object-fit: cover; 
+ }
+
 @media screen and (max-width:910px){
     .home-container{
         display:block;
