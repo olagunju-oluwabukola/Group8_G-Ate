@@ -12,7 +12,7 @@ import Home from './pages/Home'
 
  import NotFound from './pages/NotFound'
  import Rootlayout from './Layouts/RootLayout'
-
+// import Helplayout from './Layouts/Helplayout'
 
 function App() {
   const router = 
@@ -22,6 +22,7 @@ createBrowserRouter(createRoutesFromElements(
     <Route path='menu' element={<Menu/>}/>
     <Route path='about us' element={<AboutUs/> }/>
     <Route path='reservation' element={<Reservation/>}> </Route>
+    
     { <Route path='*' element={<NotFound/>}/>  }
      </Route>
 ))
