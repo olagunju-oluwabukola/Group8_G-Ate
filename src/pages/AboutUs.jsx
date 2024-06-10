@@ -13,8 +13,8 @@ const AboutUs = () => {
       <div className="about-row-1">
     <h1>We set out to create lovely <br/>
       <span>dining experiences</span>
-      <img src={aboutImage} alt="img" className='mobile-img'/>
        </h1>
+       <img src={aboutImage} alt="img" className='hidden-img' />
     </div>
 
     <div className="about-row-2" >
@@ -38,7 +38,7 @@ const AboutUs = () => {
       
 <div className='section-3'>
 
-  <div>
+  <div className='section-3-text'>
   <h1>Our team has over <span>10 years of combined <br /> experience!</span></h1>
   <h3>Our team is driven by a commitment to innovation while respecting <br /> traditional techniques</h3>
   </div>

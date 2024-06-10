@@ -7,7 +7,7 @@ import rectangle3 from '../assets/Images/Rectangle 3.png'
 const Rootlayout = () => {
   return (
     <div >
-<header>
+<header className="header">
         <div className='logo'>
         <img src={logo} alt="" />
         <h1> <span>G</span>-Ate</h1>
