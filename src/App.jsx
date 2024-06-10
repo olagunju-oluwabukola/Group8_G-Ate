@@ -12,6 +12,7 @@ import Home from './pages/Home'
 
  import NotFound from './pages/NotFound'
  import Rootlayout from './Layouts/RootLayout'
+import SeeMore from './pages/SeeMore'
 // import Helplayout from './Layouts/Helplayout'
 
 function App() {
@@ -22,9 +23,11 @@ createBrowserRouter(createRoutesFromElements(
     <Route path='menu' element={<Menu/>}/>
     <Route path='about us' element={<AboutUs/> }/>
     <Route path='reservation' element={<Reservation/>}> </Route>
-    
+    <Route path='more' element={<SeeMore />} />
+
     { <Route path='*' element={<NotFound/>}/>  }
      </Route>
+     
 ))
   return (
     <div className='bg-blue-900'>
