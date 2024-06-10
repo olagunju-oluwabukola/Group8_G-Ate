@@ -53,7 +53,14 @@
 padding: 10px;
 border-radius: 4px;
 margin: 7px 0px;
-
+/* <Route path='more' element={<SeeMore/>} /> */
+/* .reservationContainer{
+    background-image: url(./assets/Images/reservation_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center; 
+    /* object-fit: cover;  */
+/* }  */
 }
 .food-display-list {
   display: grid;
