@@ -61,6 +61,7 @@ button{
     height: 30px;
     border-radius: 20px;
 }
+
 .home-text{
     margin-top: 5em;
     margin-left: 2em;
@@ -75,4 +76,12 @@ button{
 .home-text button{
     margin: 15px;
     width: 100px;
+}
+
+.reservationContainer{
+    background-image: url(./assets/Images/reservation_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center; 
+    /* object-fit: cover;  */
 }

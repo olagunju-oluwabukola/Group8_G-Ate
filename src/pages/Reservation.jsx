@@ -1,15 +1,11 @@
-
+import Form from "../Components/Form/Form";
 
 const Reservation = () => {
-    return (
-      <div>
-      <h1 >Reservation</h1>
-  
-      <p>
-          
-      </p>
-      </div>
-    )
-  }
-  
-  export default Reservation
+  return (
+    <div className="reservationContainer">
+      <Form />
+    </div>
+  );
+};
+
+export default Reservation;
