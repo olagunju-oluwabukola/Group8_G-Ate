@@ -77,7 +77,7 @@ function DisplayMenu() {
               </div>
             </div>
           </div>
-          <div className="cardText">
+          <div className="cardText menuCardTwo">
             <p>Main Course</p>
             <button>See More</button>
           </div>
@@ -130,7 +130,7 @@ function DisplayMenu() {
               </div>
             </div>
           </div>
-          <div className="cardText">
+          <div className="cardText menuCardTwo">
             <p>Breverages</p>
             <button>See More</button>
           </div>
