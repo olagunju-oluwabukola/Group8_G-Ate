@@ -10,8 +10,10 @@ import kelewele from "../../assets/Images/kelewele.png";
 import pate from "../../assets/Images/Snoek_Pâté.png";
 import tagine from "../../assets/Images/tagine.png";
 import wakye from "../../assets/Images/Waakye.png";
+import { useNavigate } from "react-router-dom";
 
 function DisplayMenu() {
+  const navigate = useNavigate()
   return (
     <div>
       <div className="food-display">
@@ -25,7 +27,7 @@ function DisplayMenu() {
         </div>
         <div className="cardText menuCardTwo">
           <p>Appertizer</p>
-          <button>See More</button>
+          <button onClick={()=>navigate('/more')}>See More</button>
         </div>
         <div>
           <div className="food-item">
@@ -79,7 +81,7 @@ function DisplayMenu() {
           </div>
           <div className="cardText menuCardTwo">
             <p>Main Course</p>
-            <button>See More</button>
+            <button onClick={()=>navigate('/more')}>See More</button>
           </div>
           <div className="food-item">
             <div className="food-display-list">
@@ -132,7 +134,7 @@ function DisplayMenu() {
           </div>
           <div className="cardText menuCardTwo">
             <p>Breverages</p>
-            <button>See More</button>
+            <button onClick={()=>navigate('/more')}>See More</button>
           </div>
           <div className="food-item">
             <div className="food-display-list">
