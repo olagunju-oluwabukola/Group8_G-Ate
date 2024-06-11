@@ -58,3 +58,20 @@ form >button{
     margin: 32px auto;
     width: 180px;
 }
+
+@media screen and (max-width: 450px) {
+    .formDetails h1{
+        font-size: 24px;
+    }
+    label{
+        font-size: 14px;
+    }
+    input{
+        border-radius: 8px;
+        border: 1px solid #1A000080;
+    }
+    form >button{
+        border-radius: 24px;
+        height: 48px;
+    }
+}

@@ -46,7 +46,6 @@
     font-weight: 700;
     font-size: 40px;
     color: #1A0000;
-    ;
 }
 .menuCardTwo button{
     width:93px;
@@ -55,6 +54,9 @@ padding: 10px;
 border-radius: 4px;
 margin: 7px 0px;
   
+}
+.cardOneResponsiveness{
+  display: none;
 }
 .food-display-list {
   display: grid;
@@ -102,4 +104,77 @@ margin: 7px 0px;
   font-weight: 700;
   margin-top: 22px;
   margin-bottom: 10px;
+}
+
+/* mobile responsiveness */
+
+@media screen and (max-width: 450px) {
+  .food-display{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+.menuCardOne {
+  font-size: 24px;
+  gap: 20px;
+  /* align-content: space-between; */
+}
+/* .food-item{
+  width: 335px;
+} */
+ .food-item-img-container{
+  width: 160px;
+ }
+ .food-item-img-container img{
+  width: 100%;
+ }
+  .food-display-list{
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    /* margin: 20px; */
+  }
+  .info_paraOne{
+    font-size: 24px;
+  }
+  .food-item-description{
+    font-size: 14px;
+  }
+  #pate{
+    display: none;
+  }
+  .menuCardTwo{
+    /* display: flex;
+    justify-content: space-between; */
+    position: relative;
+  }
+  /* .menuCardTwo button{
+    position: absolute;
+    right: 20px;
+  } */
+   .menuCardTwo{
+    width: 335px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+   }
+  .menuCardTwo p{
+    font-size: 20px;
+  }
+  .cardMenuDiv{
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+  
+  .food-display h2{
+    display: none;
+  }
+  .menuCardOne{
+    display: none;
+  }
+  .cardOneResponsiveness{
+    display: flex;
+    flex-direction: column;
+  }
+  .respOne{
+    display: flex;
+    gap: 20px;
+  }
 }

@@ -25,6 +25,17 @@ function DisplayMenu() {
           <p>Beverages</p>
           <p>Proteins</p>
         </div>
+        <div className="cardText menuCardOne cardOneResponsiveness">
+          <div className="respOne">
+          <p><span>All</span></p>
+          <p>Appetizer</p>
+          <p>Main Course</p>
+          </div>
+          <div className="respOne">
+          <p>Beverages</p>
+          <p>Proteins</p>
+          </div>
+        </div>
         <div className="cardText menuCardTwo">
           <p>Appertizer</p>
           <button onClick={()=>navigate('/more')}>See More</button>
@@ -47,7 +58,7 @@ function DisplayMenu() {
                   </div>
                 </div>
               </div>
-              <div className="food-item">
+              <div className="food-item" id="pate">
                 <div className="food-item-img-container">
                   <img src={pate} className="food-item-image" alt="" />
                 </div>
@@ -79,7 +90,7 @@ function DisplayMenu() {
               </div>
             </div>
           </div>
-          <div className="cardText menuCardTwo">
+          <div className="cardText menuCardTwo cardMenuDiv">
             <p>Main Course</p>
             <button onClick={()=>navigate('/more')}>See More</button>
           </div>
@@ -115,7 +126,7 @@ function DisplayMenu() {
                   </div>
                 </div>
               </div>
-              <div className="food-item">
+              <div className="food-item" id="pate">
                 <div className="food-item-img-container">
                   <img src={egusi} className="food-item-image" alt="" />
                 </div>
@@ -132,7 +143,7 @@ function DisplayMenu() {
               </div>
             </div>
           </div>
-          <div className="cardText menuCardTwo">
+          <div className="cardText menuCardTwo cardMenuDiv">
             <p>Breverages</p>
             <button onClick={()=>navigate('/more')}>See More</button>
           </div>
@@ -168,7 +179,7 @@ function DisplayMenu() {
                   </div>
                 </div>
               </div>
-              <div className="food-item">
+              <div className="food-item" id="pate">
                 <div className="food-item-img-container">
                   <img src={baobab} className="food-item-image" alt="" />
                 </div>
