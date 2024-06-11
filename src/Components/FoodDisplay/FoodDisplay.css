@@ -42,20 +42,19 @@
 .menuCardOne p span {
   color: #990000;
 }
-.menuCardTwo p{
-    font-weight: 700;
-    font-size: 40px;
-    color: #1A0000;
+.menuCardTwo p {
+  font-weight: 700;
+  font-size: 40px;
+  color: #1a0000;
 }
-.menuCardTwo button{
-    width:93px;
-/* height: Hug (42px)px; */
-padding: 10px;
-border-radius: 4px;
-margin: 7px 0px;
-  
+.menuCardTwo button {
+  width: 93px;
+  /* height: Hug (42px)px; */
+  padding: 10px;
+  border-radius: 4px;
+  margin: 7px 0px;
 }
-.cardOneResponsiveness{
+.cardOneResponsiveness {
   display: none;
 }
 .food-display-list {
@@ -72,11 +71,10 @@ margin: 7px 0px;
 .food-item-info {
   padding: 20px;
 }
-.food-item-info .info_paraOne{
-    font-size: 700;
-    font-size: 32px;
-    color:#1A0000;
-    ;
+.food-item-info .info_paraOne {
+  font-size: 700;
+  font-size: 32px;
+  color: #1a0000;
 }
 .food-item-name-rating {
   display: flex;
@@ -93,13 +91,13 @@ margin: 7px 0px;
   padding-top: 20px;
 }
 .food-item-description {
-  color: #1A0000;
+  color: #1a0000;
   font-size: 16px;
   font-weight: 500;
   margin-top: 4px;
 }
 .food-item-price {
-  color:  #1A0000;
+  color: #1a0000;
   font-size: 24px;
   font-weight: 700;
   margin-top: 22px;
@@ -109,39 +107,39 @@ margin: 7px 0px;
 /* mobile responsiveness */
 
 @media screen and (max-width: 450px) {
-  .food-display{
+  .food-display {
     margin-left: 20px;
     margin-right: 20px;
   }
-.menuCardOne {
-  font-size: 24px;
-  gap: 20px;
-  /* align-content: space-between; */
-}
-/* .food-item{
+  .menuCardOne {
+    font-size: 24px;
+    gap: 20px;
+    /* align-content: space-between; */
+  }
+  /* .food-item{
   width: 335px;
 } */
- .food-item-img-container{
-  width: 160px;
- }
- .food-item-img-container img{
-  width: 100%;
- }
-  .food-display-list{
+  .food-item-img-container {
+    width: 160px;
+  }
+  .food-item-img-container img {
+    width: 100%;
+  }
+  .food-display-list {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     /* margin: 20px; */
   }
-  .info_paraOne{
+  .info_paraOne {
     font-size: 24px;
   }
-  .food-item-description{
+  .food-item-description {
     font-size: 14px;
   }
-  #pate{
+  #pate {
     display: none;
   }
-  .menuCardTwo{
+  .menuCardTwo {
     /* display: flex;
     justify-content: space-between; */
     position: relative;
@@ -150,30 +148,30 @@ margin: 7px 0px;
     position: absolute;
     right: 20px;
   } */
-   .menuCardTwo{
+  .menuCardTwo {
     width: 335px;
     margin-top: 20px;
     margin-bottom: 12px;
-   }
-  .menuCardTwo p{
+  }
+  .menuCardTwo p {
     font-size: 20px;
   }
-  .cardMenuDiv{
+  .cardMenuDiv {
     margin-top: 40px;
     margin-bottom: 12px;
   }
-  
-  .food-display h2{
+
+  .food-display h2 {
     display: none;
   }
-  .menuCardOne{
+  .menuCardOne {
     display: none;
   }
-  .cardOneResponsiveness{
+  .cardOneResponsiveness {
     display: flex;
     flex-direction: column;
   }
-  .respOne{
+  .respOne {
     display: flex;
     gap: 20px;
   }
